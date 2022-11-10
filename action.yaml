@@ -12,7 +12,7 @@ inputs:
   filter:
     description: 'Filename Regex filter'
     required: false
-    default: '\(.*\).md'
+#    default: '\(.*\).md'
 
 runs:
   using: 'composite'
@@ -41,8 +41,8 @@ runs:
         title: '[Bot] Automated catalog update'
         committer: GitHub <noreply@github.com>
         author: markdown-auto-catalog[bot] <markdown-auto-catalog[bot]@users.noreply.github.com>
-        branch: t/bot/markdown-auto-catalog
-
+        branch: main-bot
+        
 branding:
   icon: 'list'
   color: 'blue'
