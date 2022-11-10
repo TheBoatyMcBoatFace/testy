@@ -1,15 +1,17 @@
-name: minoic-auto-catalog
+name: markdown-auto-catalog
 
 on:
   push:
-    branches: [ "main" ]
-  
+    branches: [ "master" ]
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: minoic/markdown-auto-catalog@v1.0.0
-      with:
-        content-path: '/test/folder/'
-        document-path: '/test/README.md'
-      continue-on-error: true
+      - uses: minoic/markdown-auto-catalog@v1.0.0
+        with:
+          content-path: 'test/folder'
+          document-path: 'test/README.md'
+          filter: '\(.*\).md'
+        continue-on-error: true
