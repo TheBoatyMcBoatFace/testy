@@ -16,6 +16,7 @@ Catalog/table of contents for files/folders in test directory
   - [article5.md](test/folder/2-chapter2/article5.md)
   - [article6.md](test/folder/2-chapter2/article6.md)
   - [article7.md](test/folder/2-chapter2/article7.md)
+- [Test.md](test/folder/Test.md)
 
 <!-- catalog -->
 
