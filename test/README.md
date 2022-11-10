@@ -1,3 +1,8 @@
+
+# Catalog
+
+Catalog/table of contents for files/folders in test directory
+
 <!-- catalog -->
 
 - [0-intro.md](test/folder/0-intro.md)
@@ -14,5 +19,4 @@
 
 <!-- catalog -->
 
-## Catalog
 
