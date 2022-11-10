@@ -4,7 +4,7 @@ GitHub action automatically update folder-based table of contents in documents.
 This bot will help you scan folders and add directories to the specified location of the specified document as a list.
 
 ## Usage
-
+d
 Step 1
 
 Add two flags `<!-- catalog -->` to the document you want to add catalog.So that the catalog while be automatically update while the job works.
