@@ -13,11 +13,4 @@ jobs:
           content-path: 'test/folder'
           document-path: 'test/README.md'
           filter: '\(.*\).md'
-        continue-on-error: true
-  commit:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: mikeal/publish-to-github-action@master
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      BRANCH_NAME: 'main' #optional defaults to master        
+        continue-on-error: true  
